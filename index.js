@@ -24,16 +24,7 @@ app.get('/api/hello', function (req, res) {
   res.json({ greeting: 'hello API' });
 });
 
-// Who Am I API endpoint
-app.get("/api/whoami", function(req,res){
-  return res.json({
-    ipaddress:'192.168.1.1',
-    language:"en-US",
-    software:"Lenovo (Windows 11)"
 
-  })
-
-})
 
 
 // listen for requests :)
